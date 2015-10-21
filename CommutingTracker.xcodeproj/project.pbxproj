@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D46D6EC1B85C5420030C0C1 /* ActivityFlatiron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D46D6EB1B85C5420030C0C1 /* ActivityFlatiron.swift */; };
 		5D7E687A1B68064000066217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E68791B68064000066217 /* AppDelegate.swift */; };
 		5D7E687C1B68064000066217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E687B1B68064000066217 /* ViewController.swift */; };
 		5D7E687F1B68064000066217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7E687D1B68064000066217 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D46D6EB1B85C5420030C0C1 /* ActivityFlatiron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFlatiron.swift; sourceTree = "<group>"; };
 		5D7E68741B68064000066217 /* CommutingTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommutingTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7E68781B68064000066217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7E68791B68064000066217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5D7E68801B68064000066217 /* Images.xcassets */,
 				5D7E68821B68064000066217 /* LaunchScreen.xib */,
 				5D7E68771B68064000066217 /* Supporting Files */,
+				5D46D6EB1B85C5420030C0C1 /* ActivityFlatiron.swift */,
 			);
 			path = CommutingTracker;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 		5D7E686C1B68064000066217 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Alex Mishyn";
 				TargetAttributes = {
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D46D6EC1B85C5420030C0C1 /* ActivityFlatiron.swift in Sources */,
 				5D7E687C1B68064000066217 /* ViewController.swift in Sources */,
 				5D7E687A1B68064000066217 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +416,7 @@
 				5D7E68951B68064000066217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D7E68961B68064000066217 /* Build configuration list for PBXNativeTarget "CommutingTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +425,7 @@
 				5D7E68981B68064000066217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
